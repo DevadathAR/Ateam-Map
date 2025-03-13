@@ -59,7 +59,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
     mapController!.addSymbol(SymbolOptions(
       geometry: widget.end,
       iconImage: 'marker-15',
-      iconSize: 10,
+      iconSize: 2,
       iconColor: '#FF0000',
     ));
   }
